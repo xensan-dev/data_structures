@@ -3,8 +3,8 @@
 ## Notes taken by Xenon Santillan
 
 Recommended text book: Data Structures and Algorithms in Java, 6th Edition by Michael H. Goldwasser, Michael T. Goodrich, and Roberto Tamassia
------
-## Introduction: Constructors, Generics, References, Iterator/Iterable, Comparator/Comparable, Big-O
+--------------------------------------------------------
+### Introduction: Constructors, Generics, References, Iterator/Iterable, Comparator/Comparable, Big-O
 
 Two types of equality checking: value equality and reference equality.
 
@@ -12,8 +12,8 @@ Value Equality is done through the '==' operator. The primary use will be to che
 
 Reference Equality is done through the .equals() method inherited from the Object class. This is to defer the '==' operator, unless the user overrides the .equals() method.
 
------
-## Primitive Data Types: int, long, double, char, etc.
+----------------------------------------------------------------
+### Primitive Data Types: int, long, double, char, etc.
 
 Primitive types are not under the Object class, these types do not inherit the .equals() method. You must use the '==' operator to check for equality.
 
@@ -31,8 +31,8 @@ one1 == 1;    // => true
 two1 == 2;    // => true
 ```
 
------
-# String Literals
+----------------------------------------------------------------
+### String Literals
 
 The specific process (in Java) of creating a String is actually creating something called a String literal. Instead of creating new objects every time a String is created, it just creates literals/constants that are stored in a String pool for faster access. 
 // String typing extends Object
@@ -66,3 +66,5 @@ object == unequal;           // => false
 literal.equals(unequal);     // => false
 object.equals(unequal);      // => false
 ```
+----------------------------------------------------------------
+### Null Checking
