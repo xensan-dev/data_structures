@@ -1,8 +1,9 @@
 # Data Structures and Algorithms 1: ArrayLists, LinkedLists, Stacks and Queues
-## Course GTx CS1332xl on edx.org 
-## Notes taken by Xenon Santillan
 
-Recommended text book: Data Structures and Algorithms in Java, 6th Edition by Michael H. Goldwasser, Michael T. Goodrich, and Roberto Tamassia
+### Course GTx CS1332xl on edx.org 
+### Notes taken by Xenon Santillan
+
+### Recommended text book: Data Structures and Algorithms in Java, 6th Edition by Michael H. Goldwasser, Michael T. Goodrich, and Roberto Tamassia
 --------------------------------------------------------
 ### Introduction: Constructors, Generics, References, Iterator/Iterable, Comparator/Comparable, Big-O
 
